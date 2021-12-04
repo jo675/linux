@@ -7,7 +7,7 @@ read name
 git config --global user.name "$name"
 
 echo "what is your e-mail?"
-read email
+read mail
 git config --global user.email "$mail"
 
 echo "what is your username on GitHub?"
